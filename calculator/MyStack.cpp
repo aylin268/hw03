@@ -10,6 +10,11 @@ MyStack::MyStack(){
 }
 
 MyStack::~MyStack(){
+    clear();
+}
+
+
+void MyStack::clear(){
     while(!is_empty()){
         pop();
     }
