@@ -19,6 +19,7 @@ public:
 	void push(double value) override; //adds to top
 	double top() const override; //returns top value
 	bool is_empty() const override;
+	void clear() override;
 
 
 	//linked List 
